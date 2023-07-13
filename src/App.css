@@ -1,0 +1,62 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  padding: 2rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.filters-wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.filters-section {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  width: max-content;
+}
+
+.filter-options {
+  display: flex;
+  gap: 1rem;
+  width: 30%;
+  align-items: flex-end;
+}
+
+.clear-filters {
+  margin-left: auto;
+  cursor: pointer;
+
+  &:hover {
+    color: #646cff;
+  }
+}
+
+.save-filters {
+  cursor: default;
+}
+
+.szh-menu-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  height: 37px;
+  background: #fff;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.2);
+  color: #3D4F6B;
+  font-weight: bold;
+}

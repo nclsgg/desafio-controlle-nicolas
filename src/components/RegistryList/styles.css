@@ -1,0 +1,42 @@
+.registry-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.registry-list__header {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.registry-list__header th,
+.registry-list__body td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.registry-list__body tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.registry-list__body__item {
+  border: 1px solid #ccc;
+}
+
+.registry-list__body__item td {
+  text-align: center;
+  border-left: 1px solid #ccc
+}
+
+.registry-list__body__item__tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px;
+  gap: 8px;
+}
+
+.registry-list__body__item__tags__tag {
+  background-color: #e0e0e0;
+  color: #333;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
